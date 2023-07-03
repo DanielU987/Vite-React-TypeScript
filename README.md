@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Contacts CRUD App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Contacts CRUD (Create, Read, Update, Delete) application built using Vite, React, and TypeScript. The app allows users to manage their contacts by performing operations such as creating new contacts, retrieving contact details, updating contact information, and deleting contacts. The state management is implemented using a reducer pattern.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Create: Users can add new contacts by providing their name, email, and phone number.
+- Read: The app displays a list of contacts and allows users to view individual contact details.
+- Update: Users can edit contact information such as name, email, and phone number and save the changes.
+- Delete: Users can remove contacts from the list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To run this application, you need to have the following installed on your system:
 
-### `npm test`
+- Node.js and npm (Node Package Manager)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Follow these steps to get started with the Contacts CRUD app:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository from GitHub:
+```
+git clone https://github.com/DanielU987/Vite-React-TypeScript.git
+```
+2. Open a command prompt or terminal and navigate to the project directory.
+3. Run `npm install` to install the required dependencies.
+4. Run `npm run dev` to start the development server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app will be accessible at `http://localhost:5173`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+- The homepage displays a list of contacts.
+- To add a new contact, click on the "Add Contact" button and fill in the required details in the form.
+- To view contact details, click on a contact from the list.
+- To edit a contact, click on the "Edit" button next to the contact and make the necessary changes.
+- To delete a contact, click on the "Delete" button next to the contact.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project follows a standard structure for a Vite + React + TypeScript application:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - `src`: Contains the application source code.
+  - `src/components`: Contains reusable React components used in the application.
+  - `src/reducer`: Contains the reducer implementation for state management.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- Vite: A fast development build tool for modern web applications.
+- React: A JavaScript library for building user interfaces.
+- TypeScript: A statically typed superset of JavaScript.
+- HTML/CSS: Markup and styling languages for structuring and presenting the application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are welcome! If you find any issues or want to add new features, please open an issue or submit a pull request.
 
-### Analyzing the Bundle Size
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project was inspired by the need for a simple Contacts CRUD application and built using Vite, React, and TypeScript.
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to explore, modify, and have fun with this Contacts CRUD app!
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
