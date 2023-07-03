@@ -7,7 +7,7 @@ This is a simple Contacts CRUD (Create, Read, Update, Delete) application built 
 
 - Create: Users can add new contacts by providing their name, email, and phone number.
 - Read: The app displays a list of contacts and allows users to view individual contact details.
-- Update: Users can edit contact information such as name, email, and phone number and save the changes.
+- Update: Users can edit contact information such as name, surname, and phone number and save the changes.
 - Delete: Users can remove contacts from the list.
 
 ## Prerequisites
